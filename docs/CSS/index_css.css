@@ -1,0 +1,188 @@
+body{
+margin:0px;
+
+
+}
+
+
+header {
+    background-color:rgba(108, 170, 228, 0.815);
+    color:white;
+    
+    position: relative;
+    z-index: 10;
+    height: 110px;  
+}
+.header-container{
+    
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    
+
+    flex-direction: column;
+    padding:0px;
+
+    margin:0px;
+    
+      
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    top
+  padding: 0px;
+
+}
+
+.header-title{
+    font-size:1.8rem;
+    color:rgb(1, 4, 39);
+    font-style: oblique;
+    margin:2px;
+    text-align: center;
+ 
+    height:60px;
+}
+button{
+background-color: rgba(108, 170, 228, 0.815);
+height: 26px;
+
+
+
+margin:0px;
+border-radius: 15%;
+border-width: 1px;
+border-color: #7a7ce4;
+
+}
+button:hover{
+    
+    color:rgb(110, 17, 110);
+}
+
+nav{
+  
+
+  position: absolute;
+  bottom: 0px;
+}
+.dropdown {
+
+   
+    display: inline-flex;
+  position: relative;
+    padding:0px;
+    margin:0px;
+  
+    
+  }
+  .dropdown-content {
+    display: none;
+    position:absolute;
+   background-color: white;
+    min-width: 100px;
+    width: 60%;
+    top: 100%; /* Place directly below the button */
+    left: 0;
+    z-index: 11000;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+  
+    display: block;
+    
+  }
+  .dropdown-content a {
+    display: block;
+    
+    color: #000000;
+    padding: 5px;
+
+   
+  }
+  .dropdown-content a:hover {
+   
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+
+
+
+.main-container{
+    position: relative;
+    margin:29px;
+    display: flex;
+    flex-direction: column;
+    
+   
+
+
+}
+.main-content{
+    position: relative;
+    z-index: 0;
+    font-size: 1.2rem;
+   
+
+
+}
+.main-content h3{
+  text-align: center;
+}
+.main-title{
+
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-self: center;
+}
+footer{
+ 
+ width: 100%;
+  margin-top:3px;
+
+  position:fixed;
+  bottom: 0;
+}
+
+.footcontainer{
+  display:flex;
+  border:3px solid yellow;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.footcontent{
+  
+}
+.menu {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  
+  }
+  
+  .menu-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  
+  }
+  .menu-item {
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .menu-item p{
+  margin: 10px 0 0;
+  font-size: 14px;
+  }
+  .menu-icon{
+  width: 30px;
+  height: 30px;
+  }
