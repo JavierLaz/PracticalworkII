@@ -11,7 +11,7 @@ header {
     
     position: relative;
     z-index: 10;
-    height: 110px;  
+    height: 100px;  
 }
 .header-container{
     
@@ -20,7 +20,7 @@ header {
     bottom: 0px;
     
 
-    flex-direction: column;
+    flex-direction: row;
     padding:0px;
 
     margin:0px;
@@ -29,21 +29,28 @@ header {
 }
 .header-content{
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    top
+    flex-direction: column;
+    justify-content: space-around;
+    color:black;
+    font-size: 1.2rem;
   padding: 0px;
 
 }
 
 .header-title{
-    font-size:1.8rem;
+    font-size:2.5rem;
     color:rgb(1, 4, 39);
     font-style: oblique;
-    margin:2px;
-    text-align: center;
+    padding:10px;
+
+   position:absolute;
+   right:0;
+  top: -30px;
+   
+
+
  
-    height:60px;
+   
 }
 button{
 background-color: rgba(108, 170, 228, 0.815);
@@ -57,20 +64,24 @@ border-width: 1px;
 border-color: #7a7ce4;
 
 }
-button:hover{
+.header-content a{
+  color:black;
+
+}
+.dropdown a:hover{
     
     color:rgb(110, 17, 110);
 }
 
-nav{
+header nav{
   
-
+  left:10px;
   position: absolute;
   bottom: 0px;
 }
 .dropdown {
 
-   
+  
     display: inline-flex;
   position: relative;
     padding:0px;
@@ -82,11 +93,11 @@ nav{
     display: none;
     position:absolute;
    background-color: white;
-    min-width: 100px;
-    width: 60%;
-    top: 100%; /* Place directly below the button */
+    min-width: 150px;
+    width: 80%;
+    top: 100%; 
     left: 0;
-    z-index: 11000;
+  
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
   }
