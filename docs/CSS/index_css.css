@@ -170,10 +170,10 @@ body img{
   width: 50%;
 }
 footer{
- 
+ display: block;
  width: 100%;
   margin-top:-30px;
-
+  text-align: center;
  position:relative;
 top:100px;
   
@@ -330,7 +330,7 @@ top:100px;
 .row:after {
   content:"";
   display: table;
-  clear: both;
+  
   }
 .form-group button:hover {
   background-color: #218838;
