@@ -228,7 +228,7 @@ top:100px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Form Title */
+
 .form-container h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -236,12 +236,12 @@ top:100px;
   color: #444;
 }
 
-/* Form Group (Label and Input Grouping) */
+
 .form-group {
   margin-bottom: 15px;
 }
 
-/* Labels */
+
 .form-group label {
   display: block;
   margin-bottom: 5px;
@@ -263,7 +263,7 @@ top:100px;
   transition: border-color 0.3s ease;
 }
 
-/* Input Field Focus */
+
 .form-group input:focus, 
 .form-group textarea:focus, 
 .form-group select:focus {
@@ -282,17 +282,22 @@ top:100px;
 .form-group button {
   display: inline-block;
   width: 100%;
+  height:auto;
   padding: 10px 15px;
   font-size: 16px;
   color: #fff;
-  background-color: #28a745;
+  background-color: rgba(5, 5, 192, 0.76);
   border: none;
   border-radius: 4px;
-
+  
   transition: background-color 0.3s ease;
 }
 
-/* Button Hover */
+
+.form-group button:hover {
+  background-color: rgba(5, 5, 100, 0.76);
+}
+
 .column{
   float:left;
   width:70%;
@@ -330,12 +335,9 @@ top:100px;
 .row:after {
   content:"";
   display: table;
+  clear: both;
   
   }
-.form-group button:hover {
-  background-color: #218838;
-}
-
 .about_maincontainer{
   
   min-width: none;
