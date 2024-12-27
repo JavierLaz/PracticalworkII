@@ -88,3 +88,28 @@ Finding how to make the division and mainly aligning and resizing the images. Th
 
 ## Solutions: 
 Although not great, using specific sizes for each image was way to solve the resizing issue. The footer mistake was fixed by solving a syntax error. 
+
+
+# Degree.html push
+
+## Stages of development
+
+
+### Implementation:
+The page is divided in two sections: The aside side bar and the subject information. 
+#### Aside side bar: 
+The side bar uses the conditional css style of different div containers. The condition consists of the checked attribute of the sidebar id.
+The main side bar container uses a static positioning for the purpose of moving the rest of the content when appearing, while the list content uses a fixed position to always stay on the left side of the page, independently of the scrolling. Moreover, the menu button is fixed on the top left corner. 
+### Subject information:  
+The first step was to gather the information of each subject through the UFV's webpage.The information used for each subject consisted of the contents taught for the subjects in the first term of the first year, and the contents of the study plan for the rest. 
+
+
+
+## Problems: 
+The display of the side bar was the toughest part of the work. The difficulties arose from: Making the list scrollable and show all the links while keeping it fixed and move the subject content. 
+Moreover an unsolved problem is the fact that the aside scroll bar is visible and disturbs the rest of the webpage. 
+
+Another problem that occured during the development of Degree.html was a wrong implementation of the .gitignore. The fix resulted in an incompatibility between the github version and the current version, leading to an unsuccessful merging and the need to restore previous versions. 
+
+## Solutions: 
+The main solutions were trial and error and  looking at different stackexchange forums where each problem was addressed individualy such as, https://stackoverflow.com/questions/72236952/can-a-gitignore-file-have-a-name#:~:text=No%2C%20it%20can't.,gitignore%20. | https://stackoverflow.com/questions/48247695/git-warning-unable-to-access-gitignore-permission-denied-gitignore-direc | https://stackoverflow.com/questions/9811465/scrollable-div-inside-container . 
