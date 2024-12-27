@@ -395,7 +395,7 @@ top:100px;
   padding: 10px 15px;
   font-size: 16px;
   color: #fff;
-  background-color: rgba(5, 5, 192, 0.76);
+  background-color: rgba(100, 5, 192, 0.76);
   border: none;
   border-radius: 4px;
   
@@ -470,11 +470,4 @@ top:100px;
 }
 .about_maincontainer ul {
   list-style-type: square;
-}
-
-.degree-images{
-
-  height:200px;
-  width: auto;
-  margin-bottom: 150px;
 }
