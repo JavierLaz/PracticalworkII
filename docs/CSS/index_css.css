@@ -3,9 +3,12 @@ background-color: rgb(185, 189, 253);
 margin:0px;
 padding-bottom: 100px;
 
+
+
 }
 *{
   font-family: Roboto,Open-sans;
+ 
 }
 
 header {
@@ -32,6 +35,13 @@ header {
     
       
 }
+.ufvlogo{
+  position:absolute;
+  float: left;
+  top:10px;
+  left:0px;
+  width: 50px;
+}
 .header-content{
     display: flex;
     flex-direction: column;
@@ -57,7 +67,7 @@ header {
  
    
 }
-button{
+nav button{
 background-color: rgba(250, 0, 167, 0.815);
 height: 26px;
 
@@ -121,6 +131,18 @@ header nav .active{
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
   }
+  .dropdown-contenthov {
+    display: none;
+    position:absolute;
+   background-color: white;
+    min-width: 150px;
+    width: 80%;
+    top: 100%; 
+    left: 0;
+  
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
   .dropdown:hover .dropdown-content {
   
     display: block;
@@ -144,17 +166,104 @@ header nav .active{
 
 .main-container{
     position: relative;
-    margin:29px;
+    margin:0px;
+   
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
    
 
 
 }
+.main-content{
+  margin-right: 10px;
+}
+
+#sidebar-toggle {
+  
+  display: none;
+}
+#sidebar-toggle:not(:checked) ~ #sidebar-container{
+  display: none;
+ 
+}
+#sidebar-toggle:checked ~ #sidebar-container{
+  position: static;
+  width:220px;
+  height:101%;
+  background: rgb(9,9,121);
+  background: linear-gradient(153deg, rgba(9,9,121,0.8939950980392157) 18%, rgba(0,212,255,1) 96%, rgba(255,255,255,1) 100%);color: white;
+  overflow-y:auto;
+
+}
+#sidebar-toggle:not(:checked) ~ #sidebar{
+  display: none;
+
+}
+
+#sidebar-toggle:checked ~ #sidebar {
+  position: absolute;
+  top: 0;
+  
+  width: 200px;
+  height: 100%;
+ 
+  padding: 20px;
+  transition:0.4s;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+
+  transition: transform 0.3s ease;
+}
+
+.list_aside{
+position:fixed;
+  overflow-y:scroll;
+  overflow-x:auto;
+  
+  min-height: 300px;
+  height:100%;
+  top:115px;
+  left:15px;
+  margin:0px;
+  
+}
+.list_aside ul ul {
+  margin:0px;
+ 
+}
+.list_aside ul li {
+  padding-bottom: 0px;
+}
+.list_aside ul li a {
+  color: white;
+  text-decoration: none;
+}
+#sidelogo{
+  height:24px;
+  padding:1px;
+  margin:1px;
+  width:24px;
+}
+label {
+  position: fixed;
+  top: 35px;
+  opacity: 80%;
+  left: 10px;
+  background: rgba(25, 25, 145, 0.452);
+  
+  color: white;
+  padding: 6px;
+  border: none;
+
+ cursor: pointer;
+  z-index: 1000;
+}
 
 .main-content h3{
-  text-align: center;
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .main-title{
 
@@ -306,6 +415,7 @@ top:100px;
   float:right;
   width:30%;
   position: relative;
+
   
 }
 .images{
@@ -360,4 +470,11 @@ top:100px;
 }
 .about_maincontainer ul {
   list-style-type: square;
+}
+
+.degree-images{
+
+  height:200px;
+  width: auto;
+  margin-bottom: 150px;
 }
