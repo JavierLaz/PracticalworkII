@@ -170,15 +170,27 @@ header nav .active{
    
     display: flex;
     flex-direction: row;
+    margin-right: 10px;
     
    
 
 
 }
-.main-content{
-  margin-right: 10px;
+.main-content h4 ,p {
+
+text-align: center;
+
+
+
+ 
 }
 
+.main-content-deg{
+ 
+  width: 20%;
+  min-width:220px;
+  margin-right: 0.12%;
+}
 #sidebar-toggle {
   
   display: none;
@@ -188,10 +200,13 @@ header nav .active{
  
 }
 #sidebar-toggle:checked ~ #sidebar-container{
-  position: static;
+  position: relative;
+  
   width:220px;
+  background: rgba(5, 5, 100, 0.76);
+  
   height:101%;
-  background: rgb(9,9,121);
+
   
   overflow-y:auto;
 
@@ -219,12 +234,13 @@ header nav .active{
 position:fixed;
   overflow-y:scroll;
   overflow-x:auto;
-  
-  min-height: 300px;
+
+ 
   height:100%;
   top:115px;
   left:15px;
   margin:0px;
+  padding-right: 20px;
   
 }
 .list_aside ul ul {
@@ -238,7 +254,7 @@ position:fixed;
   color: white;
   text-decoration: none;
 }
-#sidelogo{
+.side #sidelogo{
   height:24px;
   padding:1px;
   margin:1px;
@@ -352,10 +368,12 @@ top:100px;
 
 
 .form-group label {
+  position: static;
   display: block;
+  opacity:100%;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #555;
+  color: #333333;
 }
 
 /* Input Fields */

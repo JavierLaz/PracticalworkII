@@ -113,3 +113,16 @@ Another problem that occured during the development of Degree.html was a wrong i
 
 ## Solutions: 
 The main solutions were trial and error and  looking at different stackexchange forums where each problem was addressed individualy such as, https://stackoverflow.com/questions/72236952/can-a-gitignore-file-have-a-name#:~:text=No%2C%20it%20can't.,gitignore%20. | https://stackoverflow.com/questions/48247695/git-warning-unable-to-access-gitignore-permission-denied-gitignore-direc | https://stackoverflow.com/questions/9811465/scrollable-div-inside-container . 
+
+
+# Fund.html push
+
+## Stages of development
+
+### Dividing the page
+The division of the page was simple compared to the rest as it only needed to have a few titles on the body template. 
+### Information
+The information exposed in the page is recovered from two main sources, the sutdy plan of fundamentals of computer engineering and the personal experience from partaking on the subject. 
+
+## Problems
+There were no noticeable difficulties. 
