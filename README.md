@@ -151,3 +151,10 @@ The division of the page was done through new css classes for the net page. Thes
 
 ## Problems
 There were no noticeable difficulties.
+
+
+# Conclusions: 
+
+Despite not liking web development too much, I believe that the practical work II is a beginner friendly project to start developing software. As a beginner I did not feel like the git or the files and directories distribution were complex .Moreover, from the activity III and the information from the presentations I was able to do most of the features and style of the website. It is also true, however, that it was not an easy project, there were times where the styles behaved unexpectedly and trying to implement some features required external research. 
+
+To conclude, this project is a great way to start software development and it could even be improved as our knowledge and experience increases. 
