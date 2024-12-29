@@ -16,37 +16,31 @@ The development of the index page can be explained cronologically and by items:
 
 ## Stages of development:
 
-### Layout: 
-The layout of the webpage was the first development, consisting mainly on sketches of a basic webpage: A header with a navigation bar, main body subdivided in sections and footer, implemented in both the css and main file. 
+### Template: 
+The layout of the webpage was the first development, consisting mainly on sketches of a basic webpage:
+#### Header 
+Consisting of the title of the website,Practical work II, and a navigation tab. The navigation has the links of each of the webpages, Home(index), about, contact, topic, Net , Degree.
+The background color uses linear-gradient function to give the color changing header. 
+Inside the navigation bar there is the Dropdown class and dropdown content.
+Dropdown works as the container of dropdown content, which is hidden(display:none) until dropdown is hovered on. 
 
-### Classes: 
-The main classes were inspired by the activity iii page and the different ones were brought up depending on the features intended. 
+#### Main Body
+The background color is common to all webpages. 
+The webpages use the main-container class for most of them, unless they need specific disposition compared to the template. 
+#### Footer
+The footer is almost a copy of activity III, a flex by row to separate the contact information in three icons. The menu class sets the default text and style to all the footer, then the menu-items makes the icon and text inside it stack vertically through the flex-direction:column;
+
+
 
 ### Items: 
-Once the structure was mainly designed the development focused on putting the content and fixing some incompatibilities and some slight design changes. 
-
-
-
-## Files
-
-
-### CSS file: 
-The creation of the css file was the main task while developing index.html since it is the foundation for the rest of the pages. 
-The css file changes the style of certain tags like nav or header and creates various classes like header-title or main-content. 
-
-
-### index.html file: 
-The index.html file was created based on the activity iii html file, using the flex display, the containers and the footer structure. 
-While the content was a brief explanation of the project's requirements. 
-
-
+Once the structure was mainly designed the development focused on putting the content and fixing some incompatibilities and some  design changes.
 
 ## Problems 
 Adjusting the different properties of the classes and positions to give a consistent although basic layout. 
-Attempts at implementing certain features too complicated like an email form that would require external code. 
+
 
 ## Solutions
-Most issues were solved by searching examples in pages like w3schools.com and stackoverflow. Although the lack of consistency between sources resulted in a less than ideal framework for scalability and reuse. 
+Most issues were solved by searching examples in pages like w3schools.com and stackoverflow. Although the lack of consistency between sources resulted in a less than ideal framework for scalability and style compatibility with external sources like a lot of images. 
 
 # Contact.html push 
 
@@ -54,19 +48,22 @@ Most issues were solved by searching examples in pages like w3schools.com and st
 ### Investigation:
 Revision of the information about forms taught in class. 
 Online investigation on the properties of form, label and input. 
-
-### Css style: 
-The css of the form consists of two main styles for the labels and inputs: 
-#### Normal:
-The boxes take the whole width and have the transition property which changes the behaviour, such as delay, between states of the classes.
-#### Focused/selected: 
-Once the box is selected there is a highlight of the border. 
-
 ### Contact.html: 
 The page follows the blueprint of the index page, with the same header and footer. The form has 4 mandatory fields, with email requiring the "@" character because of the type=email. 
+The elements used in the form are, labels, inputs,text areas and a submit button
+### Css style: 
+The css of the form consists of two main states.
+#### Normal:
+The elements take the whole width of the parent div as specified by form-container ,although the max width can not be greater than 600px.
+ The submit button has the transition property which changes the behaviour when hovered over, darkening the colour. 
+#### Focused/selected: 
+Once the input labels are selected they area outlined by a blue border. The rest keeps the same. 
+
+
 
 ## Problems: 
 The implementation of the form did not cause many errors, mainly some distribution mistakes and syntax problems. 
+Attempts at implementing certain features too complicated like an email form that would require external code. 
 ## Solutions: 
 Revision of the code and trial and error. 
 
@@ -76,16 +73,17 @@ Revision of the code and trial and error.
 ## Stages of development
 ### Curriculum vitae: 
 The first step was to design a curriculum vitae with some basic facts about myself and my career based on units 2 and 3, technical skills, soft skills and professional profile. 
-
-### Implementation:
+### About.html
+The structure of about.html is the same as the rest in header and footer but the body is different than the others by making a division by columns. This was done after researching possible ways and finding the row class division with 2 column classes.
+The :after condition and the display:none; makes it so that row only affects the distribution but not the content inside it. 
+Inside row the 2 columns are assigned a percentage of row, with the main content taking a mayor proportion.
+The main contetn implementation was not anything new, however, the contact information pictures had to be calibrated manually.  
 The page is divided in two sections: the technical information and the personal information. 
 #### Technical information: 
 The technical information is divided in different sections,each with an id that can be accessed through the about dropdown in the header.
 ### Personal information: 
 There is a photo of myself as well as links for my social media in the logos' images. 
 
-### About.html
-The structure of about.html is the same as the rest in header and footer but the body is different than the others by making a division by columns. This was done after researching possible ways and finding the row class division with 2 column classes. 
 
 ## Problems: 
 Finding how to make the division and mainly aligning and resizing the images. The footer alignment was also harder than the previous pages. 
@@ -102,7 +100,8 @@ Although not great, using specific sizes for each image was way to solve the res
 ### Implementation:
 The page is divided in two sections: The aside side bar and the subject information. 
 #### Aside side bar: 
-The side bar uses the conditional css style of different div containers. The condition consists of the checked attribute of the sidebar id.
+The side bar uses the conditional css style of different div containers. 
+The condition consists of the checked attribute of the sidebar id as it is a checkout type of label.
 The main side bar container uses a static positioning for the purpose of moving the rest of the content when appearing, while the list content uses a fixed position to always stay on the left side of the page, independently of the scrolling. Moreover, the menu button is fixed on the top left corner. 
 ### Subject information:  
 The first step was to gather the information of each subject through the UFV's webpage.The information used for each subject consisted of the contents taught for the subjects in the first term of the first year, and the contents of the study plan for the rest. 
