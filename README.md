@@ -1,5 +1,9 @@
 # PracticalworkII
-A repository of a webpage explaining my experience in the double degree of computer science and mathematics in the UFV, with focus on fundamentals of computer engineering and a topic of my choice. 
+A website repository where there are pages explaining:the practical work II,my experience in the double degree of computer science and mathematics in the UFV, with focus on fundamentals of computer engineering , some facts about myself, and a roadmap to start learning machine learning, and a webpage connecting to other classmates' practical work II. 
+
+The project is structured in three levels, the root folder with the README.md and .gitignore files, the docs which has the public, images and CSS folders, and the index.html file. The final level's public folder, has the rest of the webpages:about, net, fund, degree, topic,contact .The CSS folder contains the css file commong to all the website and the images folder has the images used throughout the repository. 
+
+The practical work II was developed in visual studio code with the Live Preview extension to help in the development of the webpage, although it sometimes caused  problems. 
 
 
 
@@ -13,7 +17,7 @@ The development of the index page can be explained cronologically and by items:
 ## Stages of development:
 
 ### Layout: 
-The layout of the webpage was the first development, consisting mainly on sketches of a basic webpage: A header with a navigation bar, main body subdivided in section and footer, implemented in both the css and main file. 
+The layout of the webpage was the first development, consisting mainly on sketches of a basic webpage: A header with a navigation bar, main body subdivided in sections and footer, implemented in both the css and main file. 
 
 ### Classes: 
 The main classes were inspired by the activity iii page and the different ones were brought up depending on the features intended. 
@@ -37,7 +41,7 @@ While the content was a brief explanation of the project's requirements.
 
 
 
-## Issues 
+## Problems 
 Adjusting the different properties of the classes and positions to give a consistent although basic layout. 
 Attempts at implementing certain features too complicated like an email form that would require external code. 
 
