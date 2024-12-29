@@ -5,6 +5,7 @@ padding-bottom: 100px;
 
 
 
+
 }
 *{
   font-family: Roboto,Open-sans;
@@ -106,7 +107,7 @@ header nav a{
   text-decoration: none;
 }
 header nav .active{
-  color:rgb(221, 222, 235);
+  color:rgb(229, 230, 243);
  
 }
 .dropdown {
@@ -521,3 +522,34 @@ top:100px;
   list-style-type: square;
 }
 
+.net-container{
+  text-align: center;
+  display:table;
+  overflow: auto;
+  
+}
+.net-row{
+  display:table-row;
+}
+
+.net-page{
+  display:table-cell;
+  width: 40%;
+  height:auto;
+  padding: 20px;
+}
+.net-page h3{
+  margin:10px;
+  color:rgb(50, 6, 170);
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  
+}
+.net-page h4{
+ color: #0d0458;
+  padding:25px;
+ 
+}
+.net-page b{
+  color: #000000;
+}

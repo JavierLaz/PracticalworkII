@@ -114,7 +114,10 @@ Another problem that occured during the development of Degree.html was a wrong i
 ## Solutions: 
 The main solutions were trial and error and  looking at different stackexchange forums where each problem was addressed individualy such as, https://stackoverflow.com/questions/72236952/can-a-gitignore-file-have-a-name#:~:text=No%2C%20it%20can't.,gitignore%20. | https://stackoverflow.com/questions/48247695/git-warning-unable-to-access-gitignore-permission-denied-gitignore-direc | https://stackoverflow.com/questions/9811465/scrollable-div-inside-container . 
 
+## Post-Degree edit:
 
+### Style change:
+After developing the table for net.html I believed it would be better to use the new style for the degree.html page. The table consists of a 3 row table where each row has 2 years of the degree and all their respective subjects and their contents. 
 # Fund.html push
 
 ## Stages of development
@@ -138,3 +141,13 @@ The division of the page was simple.Created a .topic-content
 The information exposed in the page is recovered from resources like https://d2l.ai/ https://www.geeksforgeeks.org/ https://www.w3schools.com/
 ## Problems
 There were no noticeable difficulties. 
+
+# Topic.html push
+
+## Stages of development
+
+### Page division
+The division of the page was done through new css classes for the net page. These conist on .net-container , .net-row and .net-page . Which have a display:table , table-row and table-cell respectively. These properties allow for an even  distribution of the sites. The rest of the properties were experimented on until reaching a decent layout. 
+
+## Problems
+There were no noticeable difficulties.
