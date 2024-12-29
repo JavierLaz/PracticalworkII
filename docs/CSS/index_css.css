@@ -176,7 +176,12 @@ header nav .active{
 
 
 }
+.main-content{
+  width:80%;
+  margin:auto;
+}
 .main-content h1{
+  text-align: center;
   color:rgb(9, 9, 70);
 }
 .main-content h3,h2{
@@ -283,7 +288,11 @@ label {
  cursor: pointer;
   z-index: 1000;
 }
-
+.main-content img{
+  max-width: 400px;
+  
+  padding:30px;
+}
 .main-content h3{
   
   align-items: center;
