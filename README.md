@@ -119,10 +119,22 @@ The main solutions were trial and error and  looking at different stackexchange 
 
 ## Stages of development
 
-### Dividing the page
+### Page division
 The division of the page was simple compared to the rest as it only needed to have a few titles on the body template. 
 ### Information
-The information exposed in the page is recovered from two main sources, the sutdy plan of fundamentals of computer engineering and the personal experience from partaking on the subject. 
+The information exposed in the page is recovered from two main sources, the study plan of fundamentals of computer engineering and the personal experience from partaking on the subject. 
 
+## Problems
+There were no noticeable difficulties. 
+
+
+# Topic.html push
+
+## Stages of development
+
+### Page division
+The division of the page was simple.Created a .topic-content
+### Information
+The information exposed in the page is recovered from resources like https://d2l.ai/ https://www.geeksforgeeks.org/ https://www.w3schools.com/
 ## Problems
 There were no noticeable difficulties. 
